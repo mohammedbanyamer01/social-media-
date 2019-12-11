@@ -21,11 +21,16 @@ try:
 	import requests
 except ImportError:
 	print R + ' _  '.center(44)
-	print "(   )".center(44)
-	print " |---J-O-R----('@')----D-A-N|".center(44)
-	print '(_)'.center(44)
-	print W + ' '
-	print ('P I G - J O').center(44)
+	print "".center(44)
+	print "██▓███   ██▓  ▄████  ▄▄▄██▀▀▀▒█████  ".center(44)
+	print "▓██░  ██▒▓██▒ ██▒ ▀█▒   ▒██  ▒██▒  ██▒".center(44)
+	print "▓██░ ██▓▒▒██▒▒██░▄▄▄░   ░██  ▒██░  ██▒".center(44)
+	print "▒██▄█▓▒ ▒░██░░▓█  ██▓▓██▄██▓ ▒██   ██░".center(44)
+	print "▒██▒ ░  ░░██░░▒▓███▀▒ ▓███▒  ░ ████▓▒░".center(44)
+	print "▒▓▒░ ░  ░░▓   ░▒   ▒  ▒▓▒▒░  ░ ▒░▒░▒░ ".center(44)
+	print "░▒ ░      ▒ ░  ░   ░  ▒ ░▒░    ░ ▒ ▒░ ".center(44)
+	print "░░        ▒ ░░ ░   ░  ░ ░ ░  ░ ░ ░ ▒  ".center(44)
+	print "          ░        ░  ░   ░      ░ ░ ".center(44)
 	print ' '
 	print "[!] Can't import module 'requests'\n"
 	sys.exit()
@@ -49,18 +54,32 @@ def baliho():
 		n.append(a['name'])
 
 		print R + '   _  '.center(44)
-		print "(  )".center(44)
-		print "|---J-O-R----('@')----D-A-N-|".center(44)
-		print '( _ )'.center(44)
+		print "".center(44)
+ 		print "██▓███   ██▓  ▄████  ▄▄▄██▀▀▀▒█████  ".center(44)
+		print "▓██░  ██▒▓██▒ ██▒ ▀█▒   ▒██  ▒██▒  ██▒".center(44)
+		print "▓██░ ██▓▒▒██▒▒██░▄▄▄░   ░██  ▒██░  ██▒".center(44)
+		print "▒██▄█▓▒ ▒░██░░▓█  ██▓▓██▄██▓ ▒██   ██░".center(44)
+		print "▒██▒ ░  ░░██░░▒▓███▀▒ ▓███▒  ░ ████▓▒░".center(44)
+		print "▒▓▒░ ░  ░░▓   ░▒   ▒  ▒▓▒▒░  ░ ▒░▒░▒░ ".center(44)
+		print "░▒ ░      ▒ ░  ░   ░  ▒ ░▒░    ░ ▒ ▒░ ".center(44)
+		print "░░        ▒ ░░ ░   ░  ░ ░ ░  ░ ░ ░ ▒  ".center(44)
+		print "          ░        ░  ░   ░      ░ ░ ".center(44)
 		print ' ' + W
 		print ('[*] ' + name + ' [*]').center(44)
 		print ' '
 
 	except (KeyError,IOError):
 		print R + '    _    '.center(44)
-		print "(   )".center(44)
-		print "|---J-O-R----('@')----D-A-N---|".center(44)
-		print '( _ )'.center(44)
+		print "".center(44)
+		print "██▓███   ██▓  ▄████  ▄▄▄██▀▀▀▒█████  ".center(44)
+		print "▓██░  ██▒▓██▒ ██▒ ▀█▒   ▒██  ▒██▒  ██▒".center(44)
+		print "▓██░ ██▓▒▒██▒▒██░▄▄▄░   ░██  ▒██░  ██▒".center(44)
+		print "▒██▄█▓▒ ▒░██░░▓█  ██▓▓██▄██▓ ▒██   ██░".center(44)
+		print "▒██▒ ░  ░░██░░▒▓███▀▒ ▓███▒  ░ ████▓▒░".center(44)
+		print "▒▓▒░ ░  ░░▓   ░▒   ▒  ▒▓▒▒░  ░ ▒░▒░▒░ ".center(44)
+		print "░▒ ░      ▒ ░  ░   ░  ▒ ░▒░    ░ ▒ ▒░ ".center(44)
+		print "░░        ▒ ░░ ░   ░  ░ ░ ░  ░ ░ ░ ▒  ".center(44)
+		print "          ░        ░  ░   ░      ░ ░ ".center(44)
 		print ' ' + W
 		print ('P I G - J O').center(44)
 		print (W + '     [' + G +'PERSONAL INFORMATION GATHERING JO '+ W + ']')
